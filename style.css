@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.bg-ft {
+  background-color: cyan;
+  height: 26rem;
+}
+
+.font-big {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.font-w {
+  font-weight: 700;
+}
+
+.bg-cl {
+  background-color: #f5f5f5;
+}
+
+.font-sm {
+  font-size: 1.8rem;
+}
+
+.bg {
+  height: 75rem;
+  background: url(/bg1.jpg);
+}
+
+.mt-20 {
+  margin-top: 2rem;
+}
+
+.mb-15 {
+  margin-bottom: 1.5rem;
+}
+
+.mt-50 {
+  margin-top: 5rem;
+}
+
+.mb-10 {
+  margin-top: 1rem;
+}
+
+.mb-30 {
+  margin-bottom: 3rem;
+}
+
+.pt-15 {
+  padding-top: 1.5rem;
+}
+
+.pd-15 {
+  padding: 0 1.5rem;
+}
+
+.pd-25 {
+  padding: 0 2.5rem;
+}
+
+.pd-50 {
+  padding: 5rem 0;
+}
+
+nav .logo {
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+}
+
+.molda {
+  background-color: rgba(00, 00, 00, 0.8);
+  color: #999;
+  transform: translateX(-100%);
+  transition: 0.7s;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.molda p {
+  color: white;
+  padding: 1.5rem 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.molda .close {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 4rem;
+}
+
+.content p:first-child {
+  display: none;
+}
+
+.content p {
+  font-size: 1.2rem;
+  padding: 1.5rem;
+  font-weight: 500;
+  color: #444;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.welcome {
+  color: white;
+  letter-spacing: 0.3rem;
+  padding-top: 20rem;
+  text-shadow: 1px 1px 2px black;
+}
+
+.welcome h1 {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.welcome p {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+img {
+  border-radius: 50%;
+  width: 75%;
+}
+
+.server .name {
+  font-weight: 700;
+}
+
+.server img {
+  width: 4.8rem;
+}
+
+select,
+input,
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input {
+  height: 4rem;
+  padding: 1rem;
+}
+
+.btn {
+  margin-top: 1rem;
+  text-align: end;
+}
+
+button {
+  width: 12rem;
+  height: 4rem;
+  padding: 1rem;
+  border: none;
+  background-color: rgb(46, 128, 244);
+  color: white;
+  font-weight: 700;
+}
+
+.bg-ft p {
+  line-height: 26rem;
+}
+
+@media screen and (max-width: 650px) {
+  .content p:first-child {
+    display: block;
+  }
+  .content p {
+    display: none;
+  }
+}
